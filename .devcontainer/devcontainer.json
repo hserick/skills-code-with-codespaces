@@ -10,5 +10,6 @@
     "vscode": {
       "extensions": ["GitHub.copilot"]
     },"codespaces": {"openFiles": ["codespace.md"]}
-  }
+  },
+  "postCreatedCommand": "echo 'escribiendo código desde la creación del codespace!' >> codespace.md"
 }
