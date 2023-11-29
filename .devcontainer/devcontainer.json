@@ -1,0 +1,9 @@
+{
+//nombre de esta configuración
+  "name":"codespace para habilidades",
+  //se usa la imagen base para codespace
+  "image":"mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  "remoteUser":"codespace",
+  "overrideCommand":false
+  
+}
