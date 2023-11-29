@@ -4,6 +4,12 @@
   //se usa la imagen base para codespace
   "image":"mcr.microsoft.com/vscode/devcontainers/universal:latest",
   "remoteUser":"codespace",
-  "overrideCommand":false
+  "overrideCommand":false,
+  //Se agregan las extensiones por default al ID cuando el codespace se crea
+  "customizations": {
+    "vscode": {
+      "extensions": ["GitHub.copilot"]
+    },"codespaces": {"openFiles": ["codespace.md"]}
+  }
   
 }
